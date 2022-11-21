@@ -1,7 +1,7 @@
 #include "prinf.h"
 /**
- * _printf - character string
- * @format: string whit format to print
+ * _printf - a function that produces output according to a format
+ * @format: character string
  * Return:the number of characters printed
  */
 int _printf(const char *format, ...)
