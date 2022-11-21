@@ -8,10 +8,11 @@
 * @specifier: the conversion specifier
 * @f: the function pointer
 **/
-Typedef struct specifiers
+typedef struct specifiers
 {
-Char *specifier;
-Int(*f)(va_list args);
+char *specifier;
+int (*f)(va_list args);
 } spc_dt;
 int _printf(const char *format, ...);
+int _print_format(const char *format, va_list args);
 #endif /* MAIN_H */
