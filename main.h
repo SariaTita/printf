@@ -1,5 +1,5 @@
-#ifndef MAIN
-#define MAIN
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdarg.h>
 int _putchar(char c);
 int _printf(const char *format, ...);
@@ -25,4 +25,4 @@ typedef struct code_format
 char *sc;
 int (*f)(va_list);
 } code_f;
-#endif /* MAIN */
+#endif /* MAIN_H */
