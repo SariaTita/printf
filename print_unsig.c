@@ -25,7 +25,7 @@ for (j = 1; j <= len; j++)
 digit = n / powten;
 _putchar(digit + '0');
 count++;
-n -= digit * powten;
+n -= digit *powten;
 powten /= 10;
 }
 }
