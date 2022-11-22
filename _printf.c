@@ -10,7 +10,8 @@
 int (*find_function(const char *format))(va_list)
 {
 unsigned int i = 0;
-code_f find_f[] = {
+code_f find_f[] = 
+{
 {"c", print_char},
 {"s", print_string},
 {"i", print_int},
@@ -21,7 +22,7 @@ code_f find_f[] = {
 {"o", print_octal},
 {"x", print_x},
 {"X", print_X},
-{"R", print_rot13}
+{"R", print_rot13},
 {NULL, NULL}
 };
 while (find_f[i].sc)
