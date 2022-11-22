@@ -51,16 +51,6 @@ typedef struct flag_s
 unsigned char flag;
 unsigned char value;
 } flag_t;
-/**
-* struct specifiers - struct specifiers
-* @specifier: the conversion specifier
-* @f: the function pointer
-**/
-typedef struct specifiers
-{
-char *specifier;
-int (*f)(va_list args);
-} spc_dt;
 int _printf(const char *format, ...);
 /* Conversion Specifier Functions */
 unsigned int convert_c(va_list args, buffer_t *output,
