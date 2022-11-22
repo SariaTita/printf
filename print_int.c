@@ -34,7 +34,7 @@ _putchar((digit * -1) + 48);
 else
 _putchar(digit + '0');
 count++;
-n -= digit * powten;
+n -= digit *powten;
 powten /= 10;
 }
 }

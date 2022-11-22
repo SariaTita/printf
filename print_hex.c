@@ -35,7 +35,7 @@ _putchar(digit + '0');
 else
 _putchar(digit + '0' + diff);
 count++;
-n -= digit * powten;
+n -= digit *powten;
 powten /= 16;
 }
 }

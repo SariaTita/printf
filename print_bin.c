@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_bin - convert to binary
- * @b: number in decinal
- * Return: number of chars printed
- */
+* print_bin - convert to binary
+* @b: number in decinal
+* Return: number of chars printed
+*/
 int print_bin(va_list b)
 {
 unsigned int len, powten, j, digit, n, num;
@@ -28,7 +28,7 @@ for (j = 1; j <= len; j++)
 digit = n / powten;
 _putchar(digit + '0');
 count++;
-n -= digit * powten;
+n -= digit *powten;
 powten /= 2;
 }
 }
