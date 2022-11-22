@@ -5,10 +5,6 @@
 */
 int main(void)
 {
-int num;
-char *string;
-num = 98;
-string = "Hello!";
-_printf ("%s is %i.\n", string, num);
+_printf("%S\n", "Best\nSchool");
 return (0);
 }
